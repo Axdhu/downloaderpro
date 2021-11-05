@@ -17,14 +17,10 @@ RUN apt -qq update --fix-missing && \
     wget \
     curl \
     busybox \
-    unzip \
-    unrar \
     tar \
     python3 \
     ffmpeg \
     python3-pip \
-    p7zip-full \
-    p7zip-rar
 
 RUN wget https://rclone.org/install.sh
 RUN bash install.sh
