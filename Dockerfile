@@ -28,7 +28,7 @@ RUN apt -qq update --fix-missing && \
 
 RUN wget https://rclone.org/install.sh
 RUN bash install.sh
-RUN bash startup.sh
+RUN bash start.sh
 
 RUN mkdir /app/gautam
 RUN wget -O /app/gautam/gclone.gz https://git.io/JJMSG
