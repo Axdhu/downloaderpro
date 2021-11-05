@@ -59,6 +59,7 @@
     "STRINGSESSION": {
       "description": "String Session, Run string_gen.py to get String Session.",
       "value": ""
+    },  
     "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
       "value": ""
@@ -150,6 +151,4 @@
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
      } 
-   },
-   "stack": "container"
 }
