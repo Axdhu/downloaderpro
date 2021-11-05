@@ -20,7 +20,8 @@ RUN apt -qq update --fix-missing && \
     tar \
     python3 \
     ffmpeg \
-    python3-pip \
+    python3-pip 
+
 
 RUN wget https://rclone.org/install.sh
 RUN bash install.sh
