@@ -35,6 +35,6 @@ RUN chmod 0775 /app/gautam/gclone
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 COPY . .
-RUN chmod +x extract
+RUN chmod +x *
 CMD ["bash","start.sh"]
 ENTRYPOINT ["python3", "-m", "main_startup"]
